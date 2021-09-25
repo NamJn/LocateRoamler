@@ -1,0 +1,15 @@
+C:\Users\HP\source\repos\LocateRoamler\bin\Debug\net5.0\LocateRoamler.exe
+C:\Users\HP\source\repos\LocateRoamler\bin\Debug\net5.0\LocateRoamler.deps.json
+C:\Users\HP\source\repos\LocateRoamler\bin\Debug\net5.0\LocateRoamler.runtimeconfig.json
+C:\Users\HP\source\repos\LocateRoamler\bin\Debug\net5.0\LocateRoamler.runtimeconfig.dev.json
+C:\Users\HP\source\repos\LocateRoamler\bin\Debug\net5.0\LocateRoamler.dll
+C:\Users\HP\source\repos\LocateRoamler\bin\Debug\net5.0\ref\LocateRoamler.dll
+C:\Users\HP\source\repos\LocateRoamler\bin\Debug\net5.0\LocateRoamler.pdb
+C:\Users\HP\source\repos\LocateRoamler\obj\Debug\net5.0\LocateRoamler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\LocateRoamler\obj\Debug\net5.0\LocateRoamler.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\LocateRoamler\obj\Debug\net5.0\LocateRoamler.AssemblyInfo.cs
+C:\Users\HP\source\repos\LocateRoamler\obj\Debug\net5.0\LocateRoamler.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\LocateRoamler\obj\Debug\net5.0\LocateRoamler.dll
+C:\Users\HP\source\repos\LocateRoamler\obj\Debug\net5.0\ref\LocateRoamler.dll
+C:\Users\HP\source\repos\LocateRoamler\obj\Debug\net5.0\LocateRoamler.pdb
+C:\Users\HP\source\repos\LocateRoamler\obj\Debug\net5.0\LocateRoamler.genruntimeconfig.cache

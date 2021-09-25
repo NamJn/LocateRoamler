@@ -1,0 +1,8 @@
+C:\Users\HP\source\repos\LocateRoamler.UI\obj\Debug\net5.0\LocateRoamler.UI.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\LocateRoamler.UI\obj\Debug\net5.0\LocateRoamler.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\LocateRoamler.UI\obj\Debug\net5.0\LocateRoamler.UI.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\LocateRoamler.UI\obj\Debug\net5.0\LocateRoamler.UI.AssemblyInfo.cs
+C:\Users\HP\source\repos\LocateRoamler.UI\obj\Debug\net5.0\LocateRoamler.UI.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\LocateRoamler.UI\obj\Debug\net5.0\LocateRoamler.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\source\repos\LocateRoamler.UI\obj\Debug\net5.0\LocateRoamler.UI.RazorAssemblyInfo.cache
+C:\Users\HP\source\repos\LocateRoamler.UI\obj\Debug\net5.0\LocateRoamler.UI.RazorAssemblyInfo.cs

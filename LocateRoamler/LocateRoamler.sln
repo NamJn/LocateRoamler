@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocateRoamler", "LocateRoamler.csproj", "{D5D43DC9-82E8-44C1-AE68-6A3ADC921E92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocateRoamler.Core", "..\LocateRoamler.UI\LocateRoamler.Core.csproj", "{F233115F-A3BA-4C72-99F1-0553B9CB456C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocateRoamler.Services", "..\LocateRoamler.Services\LocateRoamler.Services.csproj", "{89A0ABD3-870A-44ED-ABDF-4AB72716BA92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocateRoamler.Controllers", "..\LocateRoamler.Controllers\LocateRoamler.Controllers.csproj", "{B2CA503D-31C2-45D0-836A-7735500C75FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocateRoamler.Test", "..\LocateRoamler.Test\LocateRoamler.Test.csproj", "{D5DAB64A-9E51-47D5-9CF3-F5906E89A1FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocateRoamler.Data", "..\LocateRoamler.Data\LocateRoamler.Data.csproj", "{45386DF6-8E92-4E6E-93DA-769A8EB79178}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5D43DC9-82E8-44C1-AE68-6A3ADC921E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5D43DC9-82E8-44C1-AE68-6A3ADC921E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5D43DC9-82E8-44C1-AE68-6A3ADC921E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5D43DC9-82E8-44C1-AE68-6A3ADC921E92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F233115F-A3BA-4C72-99F1-0553B9CB456C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F233115F-A3BA-4C72-99F1-0553B9CB456C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F233115F-A3BA-4C72-99F1-0553B9CB456C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F233115F-A3BA-4C72-99F1-0553B9CB456C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A0ABD3-870A-44ED-ABDF-4AB72716BA92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A0ABD3-870A-44ED-ABDF-4AB72716BA92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A0ABD3-870A-44ED-ABDF-4AB72716BA92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A0ABD3-870A-44ED-ABDF-4AB72716BA92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2CA503D-31C2-45D0-836A-7735500C75FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2CA503D-31C2-45D0-836A-7735500C75FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2CA503D-31C2-45D0-836A-7735500C75FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2CA503D-31C2-45D0-836A-7735500C75FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5DAB64A-9E51-47D5-9CF3-F5906E89A1FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5DAB64A-9E51-47D5-9CF3-F5906E89A1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5DAB64A-9E51-47D5-9CF3-F5906E89A1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5DAB64A-9E51-47D5-9CF3-F5906E89A1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45386DF6-8E92-4E6E-93DA-769A8EB79178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45386DF6-8E92-4E6E-93DA-769A8EB79178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45386DF6-8E92-4E6E-93DA-769A8EB79178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45386DF6-8E92-4E6E-93DA-769A8EB79178}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06F7674F-2D38-4212-8AB0-5C044CE99E25}
+	EndGlobalSection
+EndGlobal

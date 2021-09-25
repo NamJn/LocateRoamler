@@ -1,0 +1,39 @@
+﻿@model LocateRoamler.Services.Models.LocationViewModel
+<body>
+    <div>
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            <p>Locate Roamler</p>
+            <p>
+                Please enter Latitude:
+                @Html.TextBoxFor(x => x.OriginLatitude, Model.OriginLatitude)<br /><br />
+                Please enter Longitude:
+                @Html.TextBoxFor(x => x.OriginLongitude, Model.OriginLongitude)<br /><br />
+                Maximum Distance (in meters):
+                @Html.TextBoxFor(x => x.SelectedMaxDistance, Model.SelectedMaxDistance)
+                Maximum No. Of results:
+                @Html.TextBoxFor(x => x.SelectedMaxResult, Model.SelectedMaxResult)
+            </p>
+
+            <button type="submit">Search</button>}
+
+        <br /><br />
+
+        @if (Model.SearchResults.Any())
+        {
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Distance (in meters)</th>
+                </tr>
+                @foreach (var result in Model.SearchResults)
+                {
+                    <tr>
+                        <td>@result.Name</td>
+                        <td>@result.Distance</td>
+                    </tr>
+                }
+            </table>}
+    </div>
+</body>

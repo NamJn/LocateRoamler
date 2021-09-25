@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ExcelDataReader" Version="3.6.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.10" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LocateRoamler.Controllers\LocateRoamler.Controllers.csproj" />
+    <ProjectReference Include="..\LocateRoamler.Data\LocateRoamler.Data.csproj" />
+    <ProjectReference Include="..\LocateRoamler.Services\LocateRoamler.Services.csproj" />
+    <ProjectReference Include="..\LocateRoamler\LocateRoamler.csproj" />
+  </ItemGroup>
+
+</Project>
