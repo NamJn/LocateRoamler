@@ -15,7 +15,7 @@ namespace LocateRoamler.Tests
             int radius = 25;
 
             var ex = Assert.Throws<ArgumentException>(() => new LocationBoundaries(origin.Latitude, origin.Longitude, radius));
-            Assert.Equal("Invalid locations supplied.", ex.Message);
+            Assert.Equal("Invalid location supplied.", ex.Message);
         }
 
         [Fact]
@@ -25,7 +25,7 @@ namespace LocateRoamler.Tests
 
             var ex = Assert.Throws<ArgumentException>(() => boundaries.Latitude = Constants.Locations.LatitudeBelowMinimum.Latitude);
 
-            Assert.Equal("Invalid locations supplied.", ex.Message);
+            Assert.Equal("Invalid location supplied.", ex.Message);
         }
 
         [Fact]
@@ -35,7 +35,7 @@ namespace LocateRoamler.Tests
 
             var ex = Assert.Throws<ArgumentException>(() => boundaries.Longitude = Constants.Locations.LongitudeBelowMinumum.Longitude);
 
-            Assert.Equal("Invalid locations supplied.", ex.Message);
+            Assert.Equal("Invalid location supplied.", ex.Message);
         }
 
         [Fact]
@@ -46,9 +46,9 @@ namespace LocateRoamler.Tests
 
             LocationBoundaries boundaries = new LocationBoundaries(origin.Latitude, origin.Longitude, radius);
 
-            double expectedResult = 33.705272959420292;
+            double expectedResult = 34.07;
 
-            Assert.Equal(boundaries.MinLatitude, expectedResult);
+            Assert.Equal(expectedResult, Math.Round(boundaries.MinLatitude, 2));
         }
 
         [Fact]
@@ -59,9 +59,9 @@ namespace LocateRoamler.Tests
 
             LocationBoundaries boundaries = new LocationBoundaries(origin.Latitude, origin.Longitude, radius);
 
-            double expectedResult = 34.429910640579713;
+            double expectedResult = 34.07;
 
-            Assert.Equal(boundaries.MaxLatitude, expectedResult);
+            Assert.Equal(expectedResult, Math.Round(boundaries.MaxLatitude, 2));
         }
 
         [Fact]
@@ -72,9 +72,9 @@ namespace LocateRoamler.Tests
 
             LocationBoundaries boundaries = new LocationBoundaries(origin.Latitude, origin.Longitude, radius);
 
-            double expectedResult = -118.83509292675051;
+            double expectedResult = -118.4;
 
-            Assert.Equal(boundaries.MinLongitude, expectedResult);
+            Assert.Equal(expectedResult, Math.Round(boundaries.MinLongitude, 2));
         }
 
         [Fact]
@@ -85,9 +85,9 @@ namespace LocateRoamler.Tests
 
             LocationBoundaries boundaries = new LocationBoundaries(origin.Latitude, origin.Longitude, radius);
 
-            double expectedResult = -117.9603252732495;
+            double expectedResult = -118.4;
 
-            Assert.Equal(boundaries.MaxLongitude, expectedResult);
+            Assert.Equal(expectedResult, Math.Round(boundaries.MaxLongitude, 2));
         }
     }
 }
