@@ -91,7 +91,7 @@ namespace LocateRoamler.Services
         public LocationBoundaries(double latitude, double longitude, double distance)
         {
             if (!LocationVaidator.Validate(latitude, longitude))
-                throw new ArgumentException("Invalid coordinates supplied.");
+                throw new ArgumentException("Invalid location supplied.");
 
             _latitude = latitude;
             _longitude = longitude;
@@ -107,8 +107,6 @@ namespace LocateRoamler.Services
         {
             var rlat1 = Math.PI * Latitude / 180;
             var rlat2 = Math.PI * location.Latitude / 180;
-            var rlon1 = Math.PI * Longitude / 180;
-            var rlon2 = Math.PI * location.Longitude / 180;
             var theta = Longitude - location.Longitude;
             var rtheta = Math.PI * theta / 180;
             var dist = Math.Sin(rlat1) * Math.Sin(rlat2) + Math.Cos(rlat1) * Math.Cos(rlat2) * Math.Cos(rtheta);
@@ -121,8 +119,9 @@ namespace LocateRoamler.Services
 
         private void Calculate()
         {
+            //to do: Create custom exception
             if (!LocationVaidator.Validate(Latitude, Longitude))
-                throw new ArgumentException("Invalid coordinates supplied.");
+                throw new ArgumentException("Invalid location supplied.");
 
             double divisor = _latitudeDistanceInMeters;
 
