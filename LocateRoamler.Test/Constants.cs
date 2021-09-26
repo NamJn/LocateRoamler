@@ -1,6 +1,6 @@
 ﻿using LocateRoamler.Services.Models;
 
-namespace LocateRoamler.Tests
+namespace LocateRoamler.Test
 {
     public static class Constants
     {

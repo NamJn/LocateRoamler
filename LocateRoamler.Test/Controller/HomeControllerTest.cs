@@ -1,13 +1,13 @@
 ﻿using LocateRoamler.Controllers.Controllers;
 using LocateRoamler.Services.Models;
-using LocateRoamler.Tests.Mocks;
+using LocateRoamler.Test.Mocks;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using System.Threading.Tasks;
 using Xunit;
 
 
-namespace LocateRoamler.Tests.Controllers
+namespace LocateRoamler.Test.Controllers
 {
     public class HomeControllerTest
     {
@@ -19,9 +19,9 @@ namespace LocateRoamler.Tests.Controllers
             var homeController = new HomeController(new MockLocationService());
             var locationModel = new LocationViewModel
             {
-                OriginLatitude = 0,
-                OriginLongitude = 0,
-                SelectedMaxDistance = 1000,
+                OriginLatitude = 52.087709,
+                OriginLongitude = 52.087709,
+                SelectedMaxDistance = 5000,
                 SelectedMaxResult = 2
             };
 

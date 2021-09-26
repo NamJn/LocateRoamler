@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocateRoamler", "LocateRoamler.csproj", "{806F644D-03DF-4001-8CE1-5734460DD06B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocateRoamler.Test", "..\..\Namrata\LocateRoamlerApp\LocateRoamler\LocateRoamler.Test\LocateRoamler.Test.csproj", "{945BDE3D-A0D5-46EC-B946-B588C59A6C40}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

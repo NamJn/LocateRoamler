@@ -3,7 +3,7 @@ using LocateRoamler.Services.Models;
 using System;
 using Xunit;
 
-namespace LocateRoamler.Tests
+namespace LocateRoamler.Test
 {
     public class LocationBoundariesTests
     {
